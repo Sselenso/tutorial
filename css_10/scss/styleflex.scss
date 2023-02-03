@@ -1,0 +1,56 @@
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.block {
+	height: 100%;
+	overflow: hidden;
+	min-height: 100%;
+	padding: 50px;
+	text-align: center;	
+	
+
+	&__row {
+		border: 10px solid #ece89d;
+		display: inline-flex ;
+			
+		
+	}
+
+	// .block__element
+
+	&__element {
+		border: 5px solid #5e5373;
+		font-size: 50px;
+		font-weight: 700;
+		color: #fff;
+			
+
+		// .block__element_1
+
+		&_1 {
+		}
+
+		// .block__element_2
+
+		&_2 {
+		}
+
+		// .block__element_3
+
+		&_3 {
+		}
+
+		// .block__element_4
+
+		&_4 {
+		}
+	}
+
+	// .block__content
+
+	&__content {
+		background-color: #18b5a4;
+		padding: 50px;
+	}
+}
