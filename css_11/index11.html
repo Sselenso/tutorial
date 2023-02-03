@@ -21,18 +21,14 @@
   <body>
     <div class="container">
       <div class="header__row">
-        <div class="header__rowleft">
-          <div class="header__rowleft-1">
-            <a href="https://ai.sknt.ru" class="newbill">AI</a>
-          </div>
-          <div class="header__rowleft-2">
-            <hr class="separatorvertical" />
-          </div>
-          <div class="header__rowleft-3">
-            <a href="https://oldbill.skynet.ru/" class="oldbill">OldBill</a>
-          </div>
-        </div>
-        <div class="header__rowcenter1">
+        <cection class="header__rowleft">
+          <a href="https://ai.sknt.ru" class="header__rowleft-1">AI</a>
+          <hr class="header__rowleft-2" />
+          <a href="https://oldbill.skynet.ru/" class="header__rowleft-3"
+            >OldBill</a
+          >
+        </cection>
+        <section class="header__center">
           <div class="header__rowcenter1-1">
             <input
               id="data-1"
@@ -59,34 +55,36 @@
               <span>Перейти</span>
             </button>
           </div>
-        </div>
-        <div class="header__rowcenter2">
-          <div class="header__rowcenter2-1">
-				
-			 </div>
-          <div class="header__rowcenter2-2">
-				<a href="/?cat=tasks&amp;_f[executor]=614236&amp;_f[owner]=all" class="" title="Открытые таски, где я исполнитель">32</a>
-				<span>/</span>
-				<a href="/?cat=tasks&amp;_f[owner]=my" class="" title="Открытые таски, где я наблюдатель">37</a>
+        </section>
 
-			 </div>
-          <div class="header__rowcenter2-3">
-				<hr class="separatorvertical">
-			 </div>
-        </div>
-        <div class="header__rowright">
-          <div class="header__rowright-1">
-				Full name
-			 </div>
-          <div class="header__rowright-2">
-				IP adress
-			 </div>
-        </div>
-        <div class="header__rowbutton">
-          <div class="header__rowbutton-1">
-				<button class="dropmenu">123</button>
-			 </div>
-        </div>
+        <section class="header__right">
+          <div class="header__rowcenter2">            
+                <a href="/?cat=tasks&amp;_f[executor]=614236&amp;_f[owner]=all"
+                class="header__rowcentertaskmy"
+                title="Открытые таски, где я исполнитель"
+                >32</a
+              >
+              <span>/</span>
+              <a
+                href="/?cat=tasks&amp;_f[owner]=my"
+                class="header__rowcentertaskall"
+                title="Открытые таски, где я наблюдатель"
+                >37</a
+              >
+               <hr class="separatorvertical" />
+            
+          </div>
+
+          <div class="header__rowright">
+            <div class="header__rowright-1">Full name</div>
+            <div class="header__rowright-2">IP adress</div>
+          </div>
+          <div class="header__rowbutton">
+            <div class="header__rowbutton-1">
+              <button class="dropmenu">123</button>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   </body>
