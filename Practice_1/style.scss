@@ -1,0 +1,45 @@
+@import "_nullstyle";
+
+body {
+	font-family: "Titillium Web";
+}
+
+.wrapper {
+}
+.block1 {
+	width: 1440px;
+	height: 596px;
+	background-color: #87509c;
+	&__menu {
+	}
+	&__menu-logo {
+	}
+	&__menu-navigation {
+		display: flex;
+
+	&__text {
+			font-size: 42.2px;
+			line-height: 48px;
+			font-weight: 700;
+			color: #f7f3ea;
+		}
+	&__button {
+		}
+	&__button-text {
+		}
+	}
+	.block2 {
+	}
+	.block3 {
+	}
+	.block4 {
+	}
+	.block5 {
+	}
+	.block6 {
+	}
+	.block7 {
+	}
+	.footer {
+	}
+}
