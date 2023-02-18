@@ -8,38 +8,31 @@ body {
 }
 .block1 {
 	width: 1440px;
-	height: 596px;
-	background-color: #87509c;
-	&__menu {
-	}
-	&__menu-logo {
-	}
-	&__menu-navigation {
-		display: flex;
+height: 596px;
+background-color: #87509c;
 
-	&__text {
-			font-size: 42.2px;
-			line-height: 48px;
-			font-weight: 700;
-			color: #f7f3ea;
+		&__menu {
+			display: flex;
+			justify-content: space-between;
+			
 		}
-	&__button {
+		&__menu-logo {
+			display: flex;
+			padding: 57px 0px 10px 160px;
 		}
-	&__button-text {
+		&__menu-navigation {
+			display: flex;
+			padding: 75px 195px 10px 160px;		
+			
 		}
-	}
-	.block2 {
-	}
-	.block3 {
-	}
-	.block4 {
-	}
-	.block5 {
-	}
-	.block6 {
-	}
-	.block7 {
-	}
-	.footer {
-	}
+		&__menu-navigation.li{
+			padding: 0px 0px 30px 30px;
+		}
+		&__text {
+			font-size: 48px;
+		}
+		&__button {
+		}
+		&__button-text {
+		}
 }

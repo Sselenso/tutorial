@@ -82,14 +82,29 @@ body {
   height: 596px;
   background-color: #87509c;
 }
+.block1__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.block1__menu-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 57px 0px 10px 160px;
+}
 .block1__menu-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 75px 195px 10px 160px;
 }
-.block1__menu-navigation__text {
-  font-size: 42.2px;
-  line-height: 48px;
-  font-weight: 700;
-  color: #f7f3ea;
+.block1__menu-navigation.li {
+  padding: 0px 0px 30px 30px;
+}
+.block1__text {
+  font-size: 48px;
 }
