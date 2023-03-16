@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-height: 1080px;
+}
+body .wrapper {
+  width: 1440px;
+  margin: auto;
+  background-color: #D9D9D9;
+}
+body .navigationmenu {
+  background-color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+}
+body .navigationmenuright {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  padding-left: 300px;
+  padding-top: 20px;
+}
+body .navigationmenuleft {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  padding-top: 20px;
+}
+/* Стиль табуляции */
+.tab {
+  float: left;
+  background-color: #f1f1f1;
+  width: 20%;
+  height: 900px;
+}
+
+.tablinks {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Стиль кнопок, которые используются для открытия содержимого вкладки */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Изменение цвета фона кнопок при наведении курсора */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Создать активный текущий класс "вкладку кнопок" */
+.tab button.active {
+  background-color: #3CAC76;
+}
+
+/* Стиль содержимого вкладки */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 80%;
+  font-size: 24px;
+  border-left: none;
+  height: 900px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+span {
+  font-weight: 700;
+}
