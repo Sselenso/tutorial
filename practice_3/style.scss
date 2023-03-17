@@ -1,0 +1,346 @@
+@import "_nullstyle";
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway-Thin.woff2") format("woff2"), url("../fonts/Raleway-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway-Medium.woff2") format("woff2"), url("../fonts/Raleway-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway-ExtraBold.woff2") format("woff2"), url("../fonts/Raleway-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	background-color: #b3b3b3;
+	font-family: "Raleway";
+}
+.wrapper {
+	width: 1920px;
+	margin: auto;
+}
+.block1 {
+	display: flex;
+	background: url(../img/bg_photo_11949.png);
+	//border: 3px solid rgb(251, 3, 185);
+	width: 1920px;
+	height: 1024px;
+}
+.block1flex {
+	//display: flex;
+	//border: 3px solid rgb(248, 1, 1);
+	flex-direction: column;
+}
+
+.block1header {
+	display: flex;
+	//border: 3px solid #000;
+}
+
+.block1header-logo {
+	display: flex;
+
+	padding: 40px 0px 0px 376px;
+}
+.block1header-logoname {
+	display: flex;
+	font-family: "Raleway";
+	font-size: 34px;
+	font-weight: 100;
+	line-height: 1.2;
+	font-weight: 400;
+	letter-spacing: -0.04em;
+	color: #ffffff;
+	padding: 55px 0px 0px 2px;
+}
+
+.block1header-nav {
+	display: flex;
+	padding-top: 62px;
+	font-family: "Montserrat";
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 300;
+	color: #ffffff;
+	text-decoration: none;
+}
+.block1header-navmenu {
+	display: flex;
+	font-family: "Montserrat";
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 300;
+	color: #ffffff;
+	padding: 0px 30px 0px 0px;
+	text-decoration: none;
+}
+.block1header-navmenu:first-child {
+	padding: 0px 30px 0px 219px;
+}
+.block1header-navmenulogo {
+	//display: inline;
+	padding: 0px 0px 0px 28px;
+}
+.block1header-nav A {
+	color: #ffffff;
+	transition-duration: 0.5s;
+}
+.block1header-nav A:hover {
+	color: #c7b299;
+}
+
+.block1main {
+	display: flex;
+	flex-direction: column;
+	margin-top: 285px;
+	align-items: center;
+	width: 1920px;
+	//border: 1px solid rgb(215, 5, 247);
+}
+
+.block1maintext {
+	//padding: 285px 0px 0px 0px;
+	//border: 1px solid rgb(239, 247, 5);
+	//text-align: center;
+	width: 592px;
+}
+.block1maintext-title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 1.2;
+	font-weight: 500;
+	color: #ffffff;
+	padding-bottom: 14px;
+}
+.block1maintext-subtitle {
+	display: block;
+	//order: 1px solid rgb(248, 7, 7);
+	font-size: 52px;
+	line-height: 1.2;
+	font-weight: 800;
+	color: #ffffff;
+	padding-bottom: 19px;
+}
+.block1maintext-text {
+	font-family: "Montserrat";
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #ffffff;
+	padding-bottom: 52px;
+	width: 592px;
+	text-align: center;
+}
+
+.block1maintext-botton {
+	display: flex;
+	width: 174px;
+	height: 54px;
+	background-color: #998675;
+	box-shadow: inset 0px -3px 0px 0px #736357;
+	border-radius: 3px;
+	justify-content: center;
+	transition-duration: 0.5s;
+}
+
+.block1maintext-botton:hover {
+	background-color: #807062;
+}
+
+.block1maintext-bottonbotton {
+	font-size: 14px;
+	padding-top: 15px;
+	line-height: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.block2 {
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	height: 380px;
+}
+.block2faq {
+	display: flex;
+	flex-direction: column;
+	width: 266px;
+	align-items: center;
+}
+.block2faqpicture {
+	padding-top: 80px;
+	text-align: center;
+}
+
+.block2faqpicture2 {
+	visibility: hidden;
+	position: absolute;
+	padding-top: 80px;
+	text-align: center;
+	transition-duration: 400ms;
+}
+.block2faqtexttitle {
+	//border: 3px solid #000;
+	padding-top: 29px;
+	font-size: 22px;
+	line-height: 1.2;
+	font-weight: 600;
+	color: #555555;
+	transition-duration: 300ms;
+}
+.block2faqtext {
+	font-family: "Montserrat";
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #8c8c8c;
+	padding-top: 26px;
+	padding-bottom: 40px;
+}
+.block2faqubderline {
+	width: 70px;
+	height: 3px;
+	background-color: #f1eee9;
+	transition-duration: 300ms;
+}
+
+.block2faq:hover .block2faqpicture {
+	visibility: hidden;
+}
+.block2faq:hover .block2faqpicture2 {
+	visibility: visible;
+}
+
+.block2faq:hover .block2faqtexttitle {
+	color: #c7b299;
+}
+.block2faq:hover .block2faqubderline {
+	background-color: #c7b299;
+}
+
+.block3 {
+	width: 1920px;
+	height: 717px;
+	background-color: #fbfaf8;
+}
+
+.block3title {
+	text-align: center;
+	padding-top: 83px;
+	font-size: 30px;
+	line-height: 1.2;
+	font-weight: 600;
+	color: #555555;
+}
+
+.block3text {
+	width: 904px;
+	text-align: center;
+	font-family: "Montserrat";
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #8c8c8c;
+	padding-top: 20px;
+	//border: 3px solid #000;
+	margin: auto;
+}
+
+.block3pictures {
+	display: flex;
+}
+
+.block3pictures1 {
+	padding-left: 346px;
+	padding-top: 122px;
+}
+.block3pictures2 {
+	padding-top: 60px;
+	position: absolute;
+	padding-left: 576px;
+	z-index: 3;
+	height: 523px;
+}
+.block3pictures3 {
+	padding-left: 776px;
+	position: absolute;
+	padding-top: 122px;
+}
+
+.block4 {	
+	width: 1920px;
+	height: 150px;
+	background-color: #f4f5f8;
+	background-image: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+}
+
+.block4flex{
+	display: flex;
+}
+
+.block4text{
+	padding-top: 48px;
+	padding-left: 346px;
+}
+
+.block4texttitle {
+	font-size: 28px;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #ffffff;
+}
+.block4texttitle span {
+	color: #c7b299;
+}
+
+
+
+.block4textsubtitle {
+	font-family: "Montserrat";
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: 300;
+	color: #615855;
+	
+}
+.block4bottomflex{
+	padding-top: 50px;
+	padding-left: 470px;
+	//border: 3px solid #000;
+}
+
+.block4bottom {		
+	width: 170px;
+	height: 50px;
+	background-color: #998675;
+	box-shadow: inset 0px -3px 0px 0px #736357;
+	border-radius: 3px;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 14px;
+	line-height: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.block4bottom a {
+	color: #ffffff;
+	text-decoration: none;
+}
