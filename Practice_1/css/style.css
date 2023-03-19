@@ -84,6 +84,7 @@ body {
 
 .block1 {
   min-height: 596px;
+  overflow: hidden;
   background-color: #87509c;
 }
 .block1__menu {
