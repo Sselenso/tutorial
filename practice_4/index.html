@@ -9,194 +9,435 @@
     <title>Practice_4</title>
   </head>
   <body>
-    
-      <header class="header">
-        <a class="header__logo logo" href="#"
-          ><img
-            src="./img/icons/logo.png"
-            width="125"
-            height="40"
-            alt="shopiy_logo"
-          />
-        </a>
+    <header class="header">
+      <a class="header__logo logo" href="#"
+        ><img
+          src="./img/icons/logo.png"
+          width="125"
+          height="40"
+          alt="shopiy_logo"
+        />
+      </a>
 
-        <div class="burger-menu">
-          <div class="burger-button">
-            <span></span>
+      <div class="burger-menu">
+        <div class="burger-button">
+          <span></span>
+        </div>
+      </div>
+
+      <nav class="header-navigation navigation">
+        <ul class="header-navigation__list navigation__list">
+          <li class="header-navigation__item navigation__item">
+            <a class="header-navigation__link navigation__link" href=""
+              >About</a
+            >
+          </li>
+
+          <li class="header-navigation__item navigation__item">
+            <a class="header-navigation__link navigation__link" href=""
+              >Product</a
+            >
+          </li>
+
+          <li class="header-navigation__item navigation__item">
+            <a class="header-navigation__link navigation__link" href=""
+              >Service</a
+            >
+          </li>
+
+          <li class="header-navigation__item navigation__item">
+            <a class="header-navigation__link navigation__link" href=""
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <div class="header-user">
+          <button class="user__sign-button button">Sign in</button>
+          <button class="user__free-button button">Try free</button>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="power container">
+        <div class="power__text-content">
+          <img class="power__cube" src="./img/icons/cube-icon.svg" alt="cube" />
+
+          <div class="power__text-content-inner">
+            <div class="section-header section-power">
+              <p class="section-header__suptitle power-suptitle">
+                100% SATISFIED GARANTEE
+              </p>
+              <h1 class="section-header__subject power-subject">
+                Power up your shopify product
+              </h1>
+              <p class="section-header__subtitle power-subtitle">
+                More then 90.000+ companies trust our business. Get help from a
+                dedicated shopify develop today
+              </p>
+            </div>
+
+            <form class="power-forma forma" action="#" method="get">
+              <div class="input__wrapper">
+                <svg
+                  width="33"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3.04297 6.99915C3.04297 6.42846 3.52738 5.96582 4.12494 5.96582H28.8749C29.4725 5.96582 29.9569 6.42846 29.9569 6.99915V23.4679C29.9569 24.0044 29.7298 24.5155 29.3316 24.8896C28.934 25.2631 28.3984 25.47 27.8437 25.47H5.15619C4.60145 25.47 4.06589 25.2631 3.66826 24.8896C3.27003 24.5155 3.04297 24.0045 3.04297 23.4679V6.99915ZM5.2069 8.03249V23.4033H27.793V8.03249H5.2069Z"
+                    fill="#868695"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3.32138 6.3072C3.72152 5.88336 4.40567 5.84956 4.84947 6.23172L16.4999 16.2641L28.1504 6.23172C28.5942 5.84956 29.2784 5.88336 29.6785 6.3072C30.0787 6.73105 30.0433 7.38445 29.5995 7.76661L17.2245 18.4229C16.8128 18.7774 16.1871 18.7774 15.7754 18.4229L3.40042 7.76661C2.95662 7.38445 2.92124 6.73105 3.32138 6.3072Z"
+                    fill="#868695"
+                  />
+                </svg>
+
+                <input
+                  class="power__input forma__input"
+                  type="email"
+                  placeholder="Your email adress"
+                  name=""
+                  id=""
+                />
+              </div>
+
+              <button class="forma__input-button button">Sign up</button>
+            </form>
+
+            <ul class="power-avaible__list">
+              <li class="power-avaible__item">
+                <img
+                  src="./img/icons/check-mark-icon.png"
+                  width="30px"
+                  height="30px"
+                  alt="check-mark"
+                />
+                <p class="power__item-text">30 day free trial</p>
+              </li>
+              <li class="power-avaible__item">
+                <img
+                  src="./img/icons/check-mark-icon.png"
+                  width="30px"
+                  height="30px"
+                  alt="check-mark"
+                />
+                <p class="power__item-text">No credit card required</p>
+              </li>
+            </ul>
           </div>
         </div>
 
-        <nav class="header-navigation navigation">
-          <ul class="header-navigation__list navigation__list">
-            <li class="header-navigation__item navigation__item">
-              <a class="header-navigation__link navigation__link" href=""
-                >About</a
-              >
-            </li>
+        <div class="power__pictures-wrapper">
+          <img
+            class="power__illustration"
+            src="./img/illustration/mean-foto.png"
+            alt="Photo a man"
+          />
+          <img
+            class="power__triangle"
+            src="./img/icons/triangle-icon.png"
+            alt="Triangle"
+          />
+          <img
+            class="power__cubetwo"
+            src="./img/icons/cube-icon.svg"
+            alt="Cube"
+          />
 
-            <li class="header-navigation__item navigation__item">
-              <a class="header-navigation__link navigation__link" href=""
-                >Product</a
-              >
-            </li>
-
-            <li class="header-navigation__item navigation__item">
-              <a class="header-navigation__link navigation__link" href=""
-                >Service</a
-              >
-            </li>
-
-            <li class="header-navigation__item navigation__item">
-              <a class="header-navigation__link navigation__link" href=""
-                >Contact</a
-              >
-            </li>
-          </ul>
-
-          <div class="header-user">
-            <button class="user__sign-button button">Sign in</button>
-            <button class="user__free-button button">Try free</button>
-          </div>
-        </nav>
-      </header>
-      <main class="main">
-        <section class="power container">
-          <div class="power__text-content">
+          <div class="power__interesting">
             <img
-              class="power__cube"
-              src="./img/icons/cube-icon.svg"
-              alt="cube"
+              class="power__interesting-foto"
+              src="./img/illustration/margaret-philips-foto.png"
+              width="153"
+              height="233"
+              alt="Margaert Phillips foto"
             />
-
-            <div class="power__text-content-inner">
-              <div class="section-header section-power">
-                <p class="section-header__suptitle power-suptitle">
-                  100% SATISFIED GARANTEE
-                </p>
-                <h1 class="section-header__subject power-subject">
-                  Power up your shopify product
-                </h1>
-                <p class="section-header__subtitle power-subtitle">
-                  More then 90.000+ companies trust our business. Get help from
-                  a dedicated shopify develop today
+            <div class="power__intresting-content">
+              <div class="power__intresting-text">
+                <h3 class="power__interesting-name">Margaert Phillips</h3>
+                <p class="power__interesting-subtitle">
+                  Watch our best service
                 </p>
               </div>
-
-              <form class="power-forma forma" action="#" method="get">
-                <div class="input__wrapper">
-                  <svg
-                    width="33"
-                    height="32"
-                    viewBox="0 0 33 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M3.04297 6.99915C3.04297 6.42846 3.52738 5.96582 4.12494 5.96582H28.8749C29.4725 5.96582 29.9569 6.42846 29.9569 6.99915V23.4679C29.9569 24.0044 29.7298 24.5155 29.3316 24.8896C28.934 25.2631 28.3984 25.47 27.8437 25.47H5.15619C4.60145 25.47 4.06589 25.2631 3.66826 24.8896C3.27003 24.5155 3.04297 24.0045 3.04297 23.4679V6.99915ZM5.2069 8.03249V23.4033H27.793V8.03249H5.2069Z"
-                      fill="#868695"
-                    />
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M3.32138 6.3072C3.72152 5.88336 4.40567 5.84956 4.84947 6.23172L16.4999 16.2641L28.1504 6.23172C28.5942 5.84956 29.2784 5.88336 29.6785 6.3072C30.0787 6.73105 30.0433 7.38445 29.5995 7.76661L17.2245 18.4229C16.8128 18.7774 16.1871 18.7774 15.7754 18.4229L3.40042 7.76661C2.95662 7.38445 2.92124 6.73105 3.32138 6.3072Z"
-                      fill="#868695"
-                    />
-                  </svg>
-
-                  <input
-                    class="power__input forma__input"
-                    type="email"
-                    placeholder="Your email adress"
-                    name=""
-                    id=""
-                  />
-                </div>
-
-                <button class="forma__input button">Sign up</button>
-              </form>
-
-              <ul class="power-avaible__list">
-                <li class="power-avaible__item">
-                  <img
-                    src="./img/icons/check-mark-icon.png"
-                    width="30px"
-                    height="30px"
-                    alt="check-mark"
-                  />
-                  <p class="power__item-text">30 day free trial</p>
-                </li>
-                <li class="power-avaible__item">
-                  <img
-                    src="./img/icons/check-mark-icon.png"
-                    width="30px"
-                    height="30px"
-                    alt="check-mark"
-                  />
-                  <p class="power__item-text">No credit card required</p>
-                </li>
-              </ul>
+              <a class="power__play-video" href="">
+                <img
+                  src="./img/icons/play-icon.png"
+                  width="45"
+                  height="45"
+                  alt="play-icon"
+                />
+              </a>
             </div>
           </div>
 
-          <div class="power__pictures-wrapper">
+          <div class="power__progress">
             <img
-              class="power__illustration"
-              src="./img/illustration/mean-foto.png"
-              alt="Photo a man"
+              src="./img/icons/make-progress-icon.png"
+              width="57"
+              height="76"
+              alt="Make progress"
             />
-            <img
-              class="power__triangle"
-              src="./img/icons/triangle-icon.png"
-              alt="Triangle"
-            />
-            <img
-              class="power__cubetwo"
-              src="./img/icons/cube-icon.svg"
-              alt="Cube"
-            />
-
-            <div class="power__interesting">
-              <img
-                class="power__interesting-foto"
-                src="./img/illustration/margaret-philips-foto.png"
-                width="153"
-                height="233"
-                alt="Margaert Phillips foto"
-              />
-              <div class="power__intresting-content">
-                <div class="power__intresting-text">
-                  <h3 class="power__interesting-name">Margaert Phillips</h3>
-                  <p class="power__interesting-subtitle">
-                    Watch our best service
-                  </p>
-                </div>
-                <a class="power__play-video" href="">
-                  <img
-                    src="./img/icons/play-icon.png"
-                    width="45"
-                    height="45"
-                    alt="play-icon"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div class="power__progress">
-              <img
-                src="./img/icons/make-progress-icon.png"
-                width="57"
-                height="76"
-                alt="Make progress"
-              />
-              <h3 class="progress__subject">Make progress</h3>
-              <p class="progress__subtitle">with opening plans</p>
-              <a class="progress__button" href="#">Buy plan</a>
-            </div>
+            <h3 class="progress__subject">Make progress</h3>
+            <p class="progress__subtitle">with opening plans</p>
+            <a class="progress__button" href="#">Buy plan</a>
           </div>
-        </section>
-      </main>
-   
+        </div>
+      </section>
+    </main>
+
+    <section class="build container">
+      <div class="build__pictures-wrapper">
+        <img src="./img/illustration/phone-foto.png" alt="phone foto" />
+      </div>
+      <div class="build__content">
+        <div class="section-header section-build">
+          <p class="section-header__suptitle build-suptitle">
+            SERVICE WE PROVIDES
+          </p>
+          <h2 class="section-header__subject build-subject">
+            Build on both: Google web stories and AMP website format
+          </h2>
+        </div>
+        <ul class="statistic__list">
+          <li class="statistic__item">
+            <div class="statistic__count">5660</div>
+            <p class="statistic__info">
+              Product sale pre day working and sales
+            </p>
+          </li>
+          <li class="statistic__item">
+            <div class="statistic__count"><span>4M+</span></div>
+            <p class="statistic__info">Downloaded saled in your good.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wedo container">
+      <div class="section-header section-wedo">
+        <p class="section-header__suptitle wedo-suptitle">WHAT WE DO</p>
+        <h2 class="section-header__subject wedo-subject">
+          Our creative procces for your business
+        </h2>
+        <p class="section-header__subtitle wedo-subtitle">
+          As our motto, we always provide the best service especially for you
+          and your company by growing your company to be better.
+        </p>
+      </div>
+      <ul class="wedo__list">
+        <li class="wedo__item">
+          <img
+            class="wedo__icon"
+            src="./img/icons/grow-trafic-icon.png"
+            width="73"
+            height="66"
+            alt="traffic icon"
+          />
+          <h3 class="wedo__item-subject">Grow your traffic</h3>
+          <p class="wedo__item-subtitle">
+            We always help you company to grow with us
+          </p>
+        </li>
+        <li class="wedo__item">
+          <img
+            class="wedo__icon"
+            src="./img/icons/content-icon.png"
+            width="73"
+            height="66"
+            alt="traffic icon"
+          />
+          <h3 class="wedo__item-subject">Content sales</h3>
+          <p class="wedo__item-subtitle">
+            Every company that we handel. We always content more sales
+          </p>
+        </li>
+        <li class="wedo__item">
+          <img
+            class="wedo__icon"
+            src="./img/icons/reporting-icon.png"
+            width="73"
+            height="66"
+            alt="traffic icon"
+          />
+          <h3 class="wedo__item-subject">Reporting & analytics</h3>
+          <p class="wedo__item-subtitle">Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li class="wedo__item">
+          <img
+            class="wedo__icon"
+            src="./img/icons/better-icon.png"
+            width="73"
+            height="66"
+            alt="traffic icon"
+          />
+          <h3 class="wedo__item-subject">Better Conversion</h3>
+          <p class="wedo__item-subtitle">
+            We always help you company to grow with us
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="product container">
+      <div class="product__pictures">
+        <img
+          class="product__foto"
+          src="./img/illustration/sofa-foto.png"
+          alt="Product foto"
+        />
+        <div class="product__sales">
+          <img
+            class="sales__icon"
+            src="./img/icons/semicircle.png"
+            width="138"
+            height="138"
+            alt="semicircle icon"
+          />
+          <p class="sales__count">28</p>
+          <p class="sales__info">Total sales</p>
+        </div>
+      </div>
+      <div class="product__content">
+        <div class="section-header section-product">
+          <p class="section-header__suptitle product-suptitle">
+            OUR PRODUCT STORIES
+          </p>
+          <h2 class="section-header__subject product-subject">
+            Why product stories? Learn more.
+          </h2>
+        </div>
+        <ul class="product-avaiable__list">
+          <li class="product-avaiable__item">
+            <h3 class="product-avaiable__subject">
+              SEO optimized, high Google work
+            </h3>
+            <p class="product-avaiable__subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda, sint!
+            </p>
+          </li>
+          <li class="product-avaiable__item">
+            <h3 class="product-avaiable__subject">
+              SEO optimized, high Google work
+            </h3>
+            <p class="product-avaiable__subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda, sint!
+            </p>
+          </li>
+          <li class="product-avaiable__item">
+            <h3 class="product-avaiable__subject">
+              SEO optimized, high Google work
+            </h3>
+            <p class="product-avaiable__subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda, sint!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="outperfome container">
+      <div class="section-header section-outperfome">
+        <p class="section-header__suptitle outperfome-suptitle">
+          CREATIVE PROCESS
+        </p>
+        <h2 class="section-header__subject outperfome-subject">
+          Knows your ads inside & out-perform
+        </h2>
+        <p class="section-header__subtitle outperfome-subtitle">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          repellat nulla beatae doloremque consequatur saepe iure nobis velit
+          odit nihil, aliquam quibusdam unde a quos commodi? Iure, culpa?
+          Asperiores, fugiat.
+        </p>
+      </div>
+      <div class="outperfome__pictures-wrapper">
+        <img
+          class="outperfome__foto"
+          src="./img/illustration/mean-foto-2.png"
+          alt="men foto2"
+        />
+      </div>
+    </section>
+
+    <section class="contact container">
+      <div class="section-header section-contact">
+        <h2 class="section-header__subject contact-subject">CONTACT WITH US</h2>
+        <p class="section-header__subtitle contact-subtitle">
+          More than 50.000+ companies trusted our business
+        </p>
+      </div>
+
+      <form class="contact-forma forma" action="#" method="get">
+        <div class="input__wrapper">
+          <input
+            class="contact__input forma__input"
+            type="email"
+            placeholder="Type your message"
+            name=""
+            id=""
+          />
+        </div>
+
+        <button class="forma__input-button button">Get started</button>
+      </form>
+    </section>
+
+		<footer class="footer">
+      <a class="footer__logo logo" href="#"
+        ><img
+          src="./img/icons/logo.png"
+          width="125"
+          height="40"
+          alt="shopiy_logo"
+        />
+      </a>
+
+      <div class="burger-menu">
+        <div class="burger-button">
+          <span></span>
+        </div>
+      </div>
+
+      <nav class="footer-navigation navigation">
+        <ul class="footer-navigation__list navigation__list">
+          <li class="footer-navigation__item navigation__item">
+            <a class="footer-navigation__link navigation__link" href=""
+              >About</a
+            >
+          </li>
+
+          <li class="footer-navigation__item navigation__item">
+            <a class="footer-navigation__link navigation__link" href=""
+              >Product</a
+            >
+          </li>
+
+          <li class="footerr-navigation__item navigation__item">
+            <a class="footer-navigation__link navigation__link" href=""
+              >Service</a
+            >
+          </li>
+
+          <li class="footer-navigation__item navigation__item">
+            <a class="footer-navigation__link navigation__link" href=""
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+		</footer>
+
+
   </body>
 </html>
