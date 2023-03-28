@@ -879,6 +879,42 @@ body {
           align-items: center;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto 130px auto;
-  padding: 35px 15px 0 15px;
+  margin: 0 auto;
+  padding: 35px 15px 30px 15px;
+}
+.footer-social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer-social__item:not(:last-child) {
+  margin-right: 40px;
+}
+.footer-social__item:hover svg path {
+  fill: #ffffff;
+}
+@media (max-width: 1215px) {
+  .fullcontent {
+    width: 90%;
+    padding-right: 15px;
+  }
+  .power__cube {
+    left: -3%;
+  }
+  .power__pictures-wrapper::before {
+    right: 10%;
+  }
+  .power__pictures-wrapper::after {
+    right: 10%;
+  }
+  .power__illustration {
+    width: 90%;
+  }
+  .power__pictures-wrapper {
+    width: 55%;
+    margin-right: -30px;
+  }
 }

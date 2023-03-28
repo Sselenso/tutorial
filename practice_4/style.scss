@@ -727,6 +727,79 @@ body {
 	align-items: center;
 	width: 100%;
 	max-width: 1200px;
-	margin: 0 auto 130px auto;
-	padding: 35px 15px 0 15px;
+	margin: 0 auto;
+	padding: 35px 15px 30px 15px;	
+	&__logo {
+	}
+}
+.logo {
+}
+.burger-menu {
+}
+.burger-button {
+}
+.footer-navigation {
+		
+	&__list {	
+	}
+	&__item {
+	}
+	&__link {
+	}
+}
+.navigation {
+	&__list {
+	}
+	&__item {
+	}
+	&__link {
+	}
+}
+.footer-social {	
+	&__list {
+	display: flex;
+	align-items: center;
+	
+	}
+	&__item {
+		
+	}
+	&__item:not(:last-child) {
+		margin-right: 40px;
+	}
+	&__item:hover svg path{
+		fill: #ffffff;
+	}
+	&__link {
+	}
+}
+
+
+
+//*adaptive
+
+@media (max-width:1215px){
+	.fullcontent {
+		width: 90%;
+		padding-right: 15px;
+	}
+
+	.power__cube{
+		left: -3%;
+	}
+	.power__pictures-wrapper::before {
+		right: 10%;
+	}
+	.power__pictures-wrapper::after {
+		right: 10%;
+	}
+	.power__illustration{
+		width: 90%;
+	}
+	.power__pictures-wrapper{
+		width: 55%;
+		margin-right: -30px;
+	}
+	
+	
 }
