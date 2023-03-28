@@ -898,11 +898,10 @@ body {
 }
 @media (max-width: 1215px) {
   .fullcontent {
-    width: 90%;
-    padding-right: 15px;
+    width: 100%;
   }
   .power__cube {
-    left: -3%;
+    left: 6%;
   }
   .power__pictures-wrapper::before {
     right: 10%;
@@ -911,10 +910,110 @@ body {
     right: 10%;
   }
   .power__illustration {
-    width: 90%;
+    width: 80%;
   }
   .power__pictures-wrapper {
-    width: 55%;
-    margin-right: -30px;
+    width: 60%;
+  }
+  .power__progress {
+    padding: 10px;
+    padding-bottom: 20px;
+    right: 20%;
+    bottom: 30%;
+  }
+  .power__interesting {
+    bottom: 0%;
+    left: 0;
+  }
+  .power__interesting-name {
+    font-size: 14px;
+  }
+  .build__pictures-wrapper {
+    width: 100%;
+  }
+  .build__picture {
+    width: 95%;
+  }
+  .product__pictures {
+    width: 100%;
+  }
+  .product__foto {
+    width: 95%;
+  }
+  .product__sales {
+    bottom: 0%;
+    left: -2%;
+  }
+  .sales__icon {
+    width: 80%;
+    height: 80%;
+  }
+  .section-product {
+    margin-bottom: 40px;
+  }
+  .outperfome__pictures-wrapper {
+    width: 100%;
+  }
+  .outperfome__foto {
+    width: 95%;
+  }
+}
+@media (max-width: 1160px) {
+  .section-header__subject {
+    font-size: 42px;
+  }
+  .power-subject {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1150px) {
+  .section-header__subject {
+    font-size: 37px;
+  }
+  .header-user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .navigation__link:last-child {
+    margin-right: -20px;
+  }
+  .power-avaible__list {
+    font-size: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .power__intresting-text {
+    left: 45%;
+  }
+  .build__pictures-wrapper {
+    width: 100%;
+  }
+  .build__picture {
+    width: 90%;
+  }
+  .wedo__item {
+    margin-bottom: -15px;
+  }
+  .product__pictures {
+    width: 100%;
+  }
+  .product__foto {
+    width: 90%;
+  }
+  .product__sales {
+    bottom: 5%;
+  }
+  .product__content {
+    margin-left: -30px;
+  }
+  .section-header__suptitle {
+    margin-bottom: 10px;
+  }
+  .product-avaiable__item {
+    margin-bottom: 20px;
   }
 }
