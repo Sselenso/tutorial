@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/form.js"></script>
+    <title>Конкурс</title>
+  </head>
+  <body>
+    <header class="header"></header>
+
+    <section class="section section--main">
+      <div class="container">
+        <div class="cont main-cont">
+          <div class="wrap main--wrap">
+            <div class="block main__block">
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="./assets/img/dvain_1.webp"
+                />
+                <img
+                  class="img main__img"
+                  src="./assets/img/dvain-1.webp"
+                  alt="#"
+                />
+              </picture>
+            </div>
+            <div class="block main__block">
+              <h1 class="subtitle main__subtitle">Конкурс</h1>
+              <div class="descr main__descr">
+                <p>
+                  Приветствую всех, кто ищет новых вызовов и&nbsp;желает поднять
+                  свой переговорный скилл! Устали от&nbsp;рутины и&nbsp;ищете
+                  занятие? Тогда мы&nbsp;предлагаем Вам принять участие
+                  в&nbsp;нашем конкурсе для специалистов.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--conditions">
+      <div class="container">
+        <div class="cont conditions-cont">
+          <h1 class="title conditions__title">Условия участия</h1>
+          <div class="wrap conditions--wrap">
+            <div class="block conditions__block">
+              <div class="item conditions__item">
+               
+                <div class="subtitle conditions__subtitle">
+                  Кто может принять участие
+                </div>
+                <div class="descr conditions__descr">
+                  Конкурс открыт для всех желающих, независимо от опыта и
+                  профессиональных навыков.
+                </div>
+              </div>
+              <div class="item conditions__item">             
+                <div class="subtitle conditions__subtitle">
+                  Что нужно сделать.
+                </div>
+                <div class="descr conditions__descr">
+                  Cобрать команду максимум из трех человек.
+                </div>
+              </div>
+              <div class="item conditions__item">               
+                <div class="subtitle conditions__subtitle">
+                  Правила конкурса.
+                </div>
+                <div class="descr conditions__descr">
+                  Подробные правила и критерии оценки по ссылке ниже
+                </div>
+              </div>
+              <div class="item conditions__item">
+                <a class="link conditions__link" href="./assets/conditions.pdf"
+                  >Полные условия</a
+                >
+              </div>
+            </div>
+            <div class="block conditions__block">
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="./assets/img/Image_005_2.webp" />
+                <img
+                  class="img conditions__img"
+                  src="./assets/img/Image_005.webp"
+                  alt=""
+              /></picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content reward-content">
+      <div class="container">
+        <div class="cont reward-cont">
+          <h1 class="title reward-title">Призы и награды</h1>
+          <div class="wrap reward-wrap">
+            <div class="block reward-block">
+              <img class="reward__img" src="./assets/img/1.webp" alt="#" />
+              <div class="subtitle reward__subtitle">Первое место</div>
+              <div class="descr reward__descr">
+                Команда получит вознаграждение в&nbsp;размере 36000&nbsp;рублей.
+              </div>
+            </div>
+            <div class="block reward-block">
+              <img class="reward__img" src="./assets/img/2.webp" alt="#" />
+              <div class="subtitle reward__subtitle">Второе место</div>
+              <div class="descr reward__descr">
+                Команда получит вознаграждение в&nbsp;размере 24000&nbsp;рублей.
+              </div>
+            </div>
+            <div class="block reward-block">
+              <img class="reward__img" src="./assets/img/3.webp" alt="#" />
+              <div class="subtitle reward__subtitle">Третье место</div>
+              <div class="descr reward__descr">
+                Команда получит вознаграждение в&nbsp;размере 15000&nbsp;рублей.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content application-content">
+      <div class="container">
+        <div class="cont application-cont">
+          <h1 class="title application-title">Подача заявок</h1>
+          <div class="wrap application-wrap">
+            <div class="table">
+              <div class="aplication-table">
+                <div class="table-item application__item">
+                  Cроки подачи заявок:
+                </div>
+                <div class="table-item application__item-last">
+                  по 30 апреля
+                </div>
+              </div>
+              <div class="aplication-table">
+                <div class="table-item application__item">
+                  Способы подачи заявок:
+                </div>
+                <div class="table-item application__item-last">
+                  пишите @Sselenso
+                </div>
+              </div>
+              <div class="aplication-table">
+                <div class="table-item application__item">
+                  Дополнительная информация:
+                </div>
+                <div class="table-item application__item-last">
+                  обязательно указывать ФИО всех участников команды
+                </div>
+              </div>
+            </div>
+          </div>
+					<button id="show-form">Записаться</button>
+
+          <div class="form-popup" id="myForm">
+            <form
+              method="POST"
+              class="form-container"
+              onsubmit="event.preventDefault(); sendTelegramMessage(this);"
+            >
+              <input
+                type="hidden"
+                name="url"
+                value="tg://resolve?domain=sselenso"
+              />
+              <h2 class="subtitle form-subtitle">Заявка на участие</h2>
+              <label for="captain"
+                ><div class="comand comand-cap">Капитан</div></label
+              >
+              <input
+                type="text"
+                placeholder="Введите имя капитана"
+                name="captain"
+                required
+              />
+              <label for="team"
+                ><div class="comand comand-structure">
+                  Состав команды
+                </div></label
+              >
+              <textarea
+                name="team"
+                placeholder="Введите состав команды"
+                rows="4"
+                cols="50"
+              ></textarea>
+              <button type="submit" class="btn">Отправить</button>
+              <button type="button" class="btn cancel" id="close-form">
+                Отмена
+              </button>
+            </form>
+          </div>
+          </div>
+        </div>      
+    </section>
+
+    <section class="content time-content">
+      <div class="container">
+        <div class="cont time-cont">
+          <h1 class="title time-title">Время проведения конкурса</h1>
+          <div class="wrap time-wrap">
+            <div class="map time__map">
+              <div class="block time__block">
+                <div class="number time__number">1</div>
+                <h2 class="subtitle time__subtitle">Апрель</h2>
+                <div class="descr time__descr">
+                  Открытие конкурса и старт приема заявок.
+                </div>
+              </div>
+              <div class="block time__block">
+                <div class="number time__number">2</div>
+                <h2 class="subtitle time__subtitle">Май</h2>
+                <div class="descr time__descr">
+                  Проведение конкурса, прием и оценка разговоров
+                </div>
+              </div>
+              <div class="block time__block">
+                <div class="number time__number">3</div>
+                <h2 class="subtitle time__subtitle">Июнь</h2>
+                <div class="descr time__descr">
+                  Подведение итогов, награждение победителей.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content end-content">
+      <div class="container">
+        <div class="cont end-cont">
+          <div class="wrap end-wrap">
+            <div class="block end__block">
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="./assets/img/end1.webp"
+                />
+                <img class="img end__img" src="./assets/img/end.webp" alt="#" />
+              </picture>
+            </div>
+            <div class="block end__block">
+              <h1 class="subtitle end__subtitle">Заключение</h1>
+              <div class="descr end__descr">
+                Мы желаем всем участникам успешного выступления и удачи в нашем
+                конкурсе!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="cont footer-cont">
+          <p class="footer__text">&copy; 2023 Конкурс. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
