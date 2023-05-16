@@ -181,36 +181,42 @@ img {
   letter-spacing: -0.03em;
 }
 
-.header__main {
-  grid-area: header;
-  padding: 1.875rem 0;
-  display: grid;
-  grid-template: 1fr/1fr minmax(auto, 684px) minmax(auto, 466px) 1fr;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 0 0.625rem;
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 33px 0;
 }
 .header__logo {
-  grid-column: 2/3;
-  max-width: 7.930625rem;
+  max-width: 123px;
+}
+.header__burger {
+  display: none;
 }
 .header__navigation {
-  grid-column: 3/3;
-}
-.header__list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2.1875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .header__item {
-  font-size: 1.125rem;
-  line-height: 1.38;
+  font-size: 18px;
+  line-height: 25px;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+}
+.header__item:not(:last-child) {
+  margin-right: 60px;
 }
 .header__link {
   position: relative;
@@ -221,8 +227,18 @@ img {
 }
 .header__link:hover {
   color: var(--color5);
-  padding-bottom: 0.125rem;
-  border-bottom: 0.0625rem solid var(--color5);
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--color5);
+}
+
+.burger__open {
+  display: none;
+}
+
+.burger__open.active {
+  display: block;
+  z-index: 3;
+  position: absolute;
 }
 
 .section__main {
@@ -616,49 +632,7 @@ img {
   opacity: 0.5;
 }
 
-@media (min-width: 59.875em) {
-  .header__main {
-    grid-area: header;
-    padding: 1.875rem 0;
-    display: grid;
-    grid-template: 1fr/1fr minmax(auto, 684px) minmax(auto, 466px) 1fr;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 0 0.625rem;
-  }
-  .review__item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    -webkit-column-gap: re(20);
-       -moz-column-gap: re(20);
-            column-gap: re(20);
-    row-gap: 5rem;
-  }
-  .review__list {
-    margin-bottom: 0;
-  }
-  .review__list:last-child {
-    grid-column: 1/span 2;
-    grid-row: 2;
-    max-width: 75%;
-  }
-  .service__item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    -webkit-column-gap: 0.6875rem;
-       -moz-column-gap: 0.6875rem;
-            column-gap: 0.6875rem;
-    row-gap: 4.3125rem;
-  }
-  .service__list {
-    margin-bottom: 0;
-  }
-}
 @media (max-width: 59.875em) {
-  .header__navigation {
-    display: none;
-  }
   .subtitle {
     font-size: 1.5625rem;
   }
@@ -694,10 +668,6 @@ img {
   .review__text {
     font-size: 1.25rem;
   }
-  .container-gallery {
-    width: 100%;
-    padding: 0 3.125rem;
-  }
   .contact__phone-link {
     font-size: 2.8125rem;
   }
@@ -705,10 +675,69 @@ img {
     font-size: 2.8125rem;
   }
 }
-@media (min-width: 48em) {
+@media (min-width: 47.9375em) {
+  .review__item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: re(20);
+       -moz-column-gap: re(20);
+            column-gap: re(20);
+    row-gap: 5rem;
+  }
+  .review__list {
+    margin-bottom: 0;
+  }
+  .review__list:last-child {
+    grid-column: 1/span 2;
+    grid-row: 2;
+    max-width: 75%;
+  }
+  .service__item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 0.6875rem;
+       -moz-column-gap: 0.6875rem;
+            column-gap: 0.6875rem;
+    row-gap: 4.3125rem;
+  }
+  .service__list {
+    margin-bottom: 0;
+  }
   .contact__wrap {
     display: grid;
     grid-template-columns: repeat(2, 50%);
+  }
+}
+@media (max-width: 48em) {
+  .header__navigation {
+    display: none;
+  }
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 3.125rem;
+    height: 1.25rem;
+    cursor: pointer;
+  }
+  .header__burger::before, .header__burger::after {
+    content: "";
+    background-color: var(--color4);
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 2px;
+    width: 100%;
+  }
+  .header__burger::before {
+    top: 0;
+  }
+  .header__burger::after {
+    bottom: 0;
+    width: 1.875rem;
+    margin-top: 6px;
+  }
+  .gallery__contrainer {
+    padding: 0 3.125rem;
   }
 }
 @media (max-width: 20em) {
