@@ -161,7 +161,6 @@ a:focus {
   text-transform: uppercase;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
@@ -224,7 +223,6 @@ a:focus {
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
 }
@@ -241,7 +239,6 @@ a:focus {
   width: 37px;
   height: 42px;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .custom_nav-container .navbar-toggler span {
@@ -251,7 +248,6 @@ a:focus {
   background-color: #ffffff;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
   border-radius: 5px;
@@ -267,7 +263,6 @@ a:focus {
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .custom_nav-container .navbar-toggler span::after {
@@ -333,7 +328,6 @@ a:focus {
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
   margin-top: 10px;
@@ -391,7 +385,6 @@ a:focus {
   margin-right: 15px;
   position: relative;
   -webkit-transition: all 0.1 0.5s;
-  -o-transition: all 0.1 0.5s;
   transition: all 0.1 0.5s;
   border-radius: 100%;
   border: 5px solid #ffbe33;
@@ -400,7 +393,6 @@ a:focus {
 .offer_section .box .img-box img {
   width: 100%;
   -webkit-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 .offer_section .box .detail-box h5 {
@@ -423,7 +415,6 @@ a:focus {
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
 }
@@ -472,7 +463,6 @@ a:focus {
   color: #ffffff;
   border-radius: 15px;
   overflow: hidden;
-  background: -o-linear-gradient(top, #f1f2f3 25px, #222831 25px);
   background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
 }
 .food_section .box .img-box {
@@ -495,7 +485,6 @@ a:focus {
   max-width: 100%;
   max-height: 145px;
   -webkit-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 .food_section .box .detail-box {
@@ -559,7 +548,6 @@ a:focus {
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
 }
@@ -601,7 +589,6 @@ a:focus {
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
   margin-top: 15px;
@@ -658,7 +645,6 @@ a:focus {
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
 }
@@ -817,7 +803,6 @@ a:focus {
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
 }

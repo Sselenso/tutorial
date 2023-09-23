@@ -167,7 +167,6 @@ body {
   font-size: 16px;
   color: #fff;
   -webkit-transition: 1s;
-  -o-transition: 1s;
   transition: 1s;
 }
 .navigation__link::before {
@@ -184,7 +183,6 @@ body {
           filter: blur(25px);
   opacity: 0;
   -webkit-transition: opacity 0.2s linear;
-  -o-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
 }
 .navigation__link:hover::before {
@@ -200,7 +198,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
@@ -537,7 +534,6 @@ body {
   padding: 10px 30px;
   color: #ffffff;
   -webkit-transition: background-color 0.2s linear;
-  -o-transition: background-color 0.2s linear;
   transition: background-color 0.2s linear;
 }
 .progress__button:hover {
@@ -653,7 +649,6 @@ body {
   margin-bottom: 30px;
   border-radius: 10px;
   -webkit-transition: background-color 0.2s linear;
-  -o-transition: background-color 0.2s linear;
   transition: background-color 0.2s linear;
 }
 .wedo__item:hover {

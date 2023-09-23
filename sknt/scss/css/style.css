@@ -113,7 +113,6 @@ body {
   width: 2px;
   background: gray;
   -webkit-transition: background 0.3s, opacity 0.3s;
-  -o-transition: background 0.3s, opacity 0.3s;
   transition: background 0.3s, opacity 0.3s;
 }
 .header__left-3 {

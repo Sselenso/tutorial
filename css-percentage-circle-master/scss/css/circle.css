@@ -60,13 +60,10 @@
   text-align: center;
   white-space: nowrap;
   -webkit-transition-property: all;
-  -o-transition-property: all;
   transition-property: all;
   -webkit-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
 .c100:after {
@@ -80,13 +77,10 @@
   width: 0.84em;
   height: 0.84em;
   -webkit-transition-property: all;
-  -o-transition-property: all;
   transition-property: all;
   -webkit-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
   -webkit-transition-timing-function: ease-in;
-  -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
 .c100 .slice {

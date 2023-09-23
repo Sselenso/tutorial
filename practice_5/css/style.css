@@ -184,7 +184,6 @@ img {
   line-height: 1;
   color: #d4d6d4;
   -webkit-transition: color 0.3s;
-  -o-transition: color 0.3s;
   transition: color 0.3s;
 }
 .section__link svg {
@@ -459,7 +458,6 @@ img {
   background-repeat: no-repeat;
   background-size: 21px auto;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
